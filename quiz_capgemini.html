@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Basic Quiz App</title>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+
+  <div class="quiz-box">
+    <h2>Java Quiz</h2>
+    <p class="question">What is the default value of an int variable in Java?</p>
+
+    <!-- Radio Buttons -->
+    <input type="radio" name="ans" id="opt1">
+    <input type="radio" name="ans" id="opt2">
+    <input type="radio" name="ans" id="opt3">
+    <input type="radio" name="ans" id="opt4">
+
+    <!-- Labels for Options -->
+    <label for="opt1" class="option">A) null</label>
+    <label for="opt2" class="option">B) 0</label>
+    <label for="opt3" class="option">C) 1</label>
+    <label for="opt4" class="option">D) undefined</label>
+
+    <!-- Result Messages -->
+    <div class="msg wrong-msg" id="msg1">Incorrect! Try again.</div>
+    <div class="msg correct-msg" id="msg2">Correct Answer!</div>
+    <div class="msg wrong-msg" id="msg3">Incorrect! Try again.</div>
+    <div class="msg wrong-msg" id="msg4">Incorrect! Try again.</div>
+  </div>
+
+</body>
+</html>
